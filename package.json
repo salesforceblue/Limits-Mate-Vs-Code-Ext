@@ -3,7 +3,7 @@
   "displayName": "Limits Mate For Salesforce",
   "icon": "Images/logo.png",
   "description": "Comprehensive solution for real time monitoring and analyzing Governor Limit consumption during your Salesforce session.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "salesforcebluecom",
   "repository": {
 		"url": "https://github.com/salesforceblue/Limits-Mate-Vs-Code-Ext"

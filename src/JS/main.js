@@ -440,6 +440,8 @@ function setFlagsOnStop() {
 	isStartEngineProcessed = false; 
 	isStopEngineProcessed = true;
 	isCurrentUserLogDownLoaded = false;
+	lastFetchedLogTimeStamp = undefined;
+	lookAheadLastModifiedDateTimeStamp = undefined;
 }
 
 /* 
@@ -581,7 +583,6 @@ function getLatestLogs(userId, fetchAllLogs) { // Fallback mechanism: Show repor
 				for (let log of logsList.result.records) {
 					lastFetchedLogTimeStamp = log.LastModifiedDate;
 					if(isFileDownloaded(path.join(LOG_DIR_PATH, `${log.Id}.log`))) {
-						// console.log(`log already fetched : ${log.Id} for fetchAll: ${fetchAllLogs}`); 
 						continue;
 					}
 					// console.log(`Fetching log Id - ${log.Id} for Fetch All : ${fetchAllLogs}`);

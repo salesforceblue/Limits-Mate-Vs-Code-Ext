@@ -50,3 +50,7 @@ By default, Limits Mate displays a Governor Limits Consumption report when the t
 ### 1.0.0
 
 Initial release of Limits Mate supporting default namespace and run time limits
+
+### 1.0.1
+
+Stop Engine Optimisation
