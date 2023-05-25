@@ -54,3 +54,7 @@ Initial release of Limits Mate supporting default namespace and run time limits
 ### 1.0.1
 
 Stop Engine Optimisation
+
+### 1.0.1
+
+Show Report Optimisation
